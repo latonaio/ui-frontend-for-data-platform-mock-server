@@ -1,0 +1,28 @@
+{
+  "business-partner": [
+    {
+      "id": 1,
+      "BusinessPartner": 1,
+      "BusinessPartnerName": "typicode"
+    },
+    {
+      "id": 1,
+      "BusinessPartner": 1,
+      "BusinessPartnerName": "typicode"
+    }
+  ],
+  "business-partner-list": {
+    "General": [
+      {
+        "BusinessPartner": 101,
+        "BusinessPartnerName": "ローソン本社",
+        "IsMarkedForDeletion": false
+      },
+      {
+        "BusinessPartner": 201,
+        "BusinessPartnerName": "山崎製パン",
+        "IsMarkedForDeletion": false
+      }
+    ]
+  }
+}

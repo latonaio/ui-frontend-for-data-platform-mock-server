@@ -1,0 +1,81 @@
+{
+  "orders-list_buyer": {
+    "Header": [
+      {
+        "OrderID": 1,
+        "Buyer": 101,
+        "BuyerName": "ローソン本社",
+        "Seller": 201,
+        "SellerName": "山崎製パン",
+        "HeaderDeliveryStatus": "NP",
+        "OrderType": "OD",
+        "IsCancelled": false,
+        "IsMarkedForDeletion": false
+      },
+      {
+        "OrderID": 2,
+        "Buyer": 101,
+        "BuyerName": "ローソン本社",
+        "Seller": 201,
+        "SellerName": "山崎製パン",
+        "HeaderDeliveryStatus": "NP",
+        "OrderType": "OD",
+        "IsCancelled": false,
+        "IsMarkedForDeletion": false
+      }
+    ],
+    "HeaderWithItem": null,
+    "Item": null
+  },
+
+  "orders-list_seller": {
+    "Header": [],
+    "HeaderWithItem": null,
+    "Item": null
+  },
+
+  "orders-detail-list_buyer": {
+    "Header": {
+      "OrderID": 1,
+      "Buyer": 101,
+      "BuyerName": "ローソン本社",
+      "Seller": 201,
+      "SellerName": "山崎製パン",
+      "HeaderDeliveryStatus": "NP",
+      "OrderType": "OD",
+      "IsCancelled": false,
+      "IsMarkedForDeletion": false
+    },
+    "HeaderWithItem": [
+      {
+        "OrderID": 1,
+        "Buyer": 101,
+        "BuyerName": "ローソン本社",
+        "Seller": 201,
+        "SellerName": "山崎製パン",
+        "HeaderDeliveryStatus": "NP",
+        "OrderType": "OD",
+        "IsCancelled": false,
+        "IsMarkedForDeletion": false
+      }
+    ],
+    "Item": [
+      {
+        "OrderID": 1,
+        "OrderItem": 1,
+        "Product": "A3750",
+        "OrderItemTextByBuyer": "テスト",
+        "OrderItemTextBySeller": "テスト",
+        "OrderQuantityInDeliveryUnit": 100,
+        "DeliveryUnit": 100,
+        "ConditionRateValue": 1,
+        "RequestedDeliveryDate": 1,
+        "NetAmount": 100,
+        "IsCancelled": false,
+        "IsMarkedForDeletion": false,
+        "SupplyChainRelationshipID": 100000000,
+        "PricingProcedureCounter": 10
+      }
+    ]
+  }
+}

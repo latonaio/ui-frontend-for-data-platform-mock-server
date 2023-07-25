@@ -1,0 +1,30 @@
+{
+  "bill-of-material-list_ownerProductionPlantBusinessPartner": {
+    "Header": [
+      {
+        "Product": "A3750",
+        "BillOfMaterial": 280000000,
+        "ProductDescription": "ランチパックたまご",
+        "OwnerProductionPlant": "AB01",
+        "OwnerProductionPlantName": "ローソン本社",
+        "ValidityStartDate": "2023-05-17",
+        "IsMarkedForDeletion": false,
+        "Images": {
+          "Product": "画像"
+        }
+      },
+      {
+        "Product": "A3750",
+        "BillOfMaterial": 280000001,
+        "ProductDescription": "ランチパックたまご",
+        "OwnerProductionPlant": "AB01",
+        "OwnerProductionPlantName": "ローソン本社",
+        "ValidityStartDate": "2023-05-17",
+        "IsMarkedForDeletion": false,
+        "Images": {
+          "Product": "画像"
+        }
+      }
+    ]
+  }
+}

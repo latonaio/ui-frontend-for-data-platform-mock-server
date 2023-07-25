@@ -1,0 +1,187 @@
+{
+  "business-partner": [
+    {
+      "id": 1,
+      "BusinessPartner": 1,
+      "BusinessPartnerName": "typicode"
+    },
+    {
+      "id": 1,
+      "BusinessPartner": 1,
+      "BusinessPartnerName": "typicode"
+    }
+  ],
+  
+  "bill-of-material-list_ownerProductionPlantBusinessPartner": {
+    "Header": [
+      {
+        "Product": "A3750",
+        "BillOfMaterial": 280000000,
+        "ProductDescription": "ランチパックたまご",
+        "OwnerProductionPlant": "AB01",
+        "OwnerProductionPlantName": "ローソン本社",
+        "ValidityStartDate": "2023-05-17",
+        "IsMarkedForDeletion": false,
+        "Images": {
+          "Product": "画像"
+        }
+      },
+      {
+        "Product": "A3750",
+        "BillOfMaterial": 280000001,
+        "ProductDescription": "ランチパックたまご",
+        "OwnerProductionPlant": "AB01",
+        "OwnerProductionPlantName": "ローソン本社",
+        "ValidityStartDate": "2023-05-17",
+        "IsMarkedForDeletion": false,
+        "Images": {
+          "Product": "画像"
+        }
+      }
+    ]
+  },
+  
+  "delivery-document-list_deliverFromParty": {
+	"deliveryDocuments":[
+		{
+		"DeliveryDocument": 11,
+		"Product": "A3750",
+		"DeliveryDocumentItemText": "aa",
+		"OriginalQuantityInDeliveryUnit": 33,
+		"DeliveryUnit": "aaa",
+		"IsMarkedForDeletion": false
+		}
+	]
+  },
+
+  "delivery-document-list_deliverToParty": {
+	"deliveryDocuments":[
+		{
+		"DeliveryDocument": 11,
+		"Product": "A3750",
+		"DeliveryDocumentItemText": "aa",
+		"OriginalQuantityInDeliveryUnit": 33,
+		"DeliveryUnit": "aaa",
+		"IsMarkedForDeletion": false
+		}
+	]
+
+  },
+
+  "business-partner-list": {
+    "General": [
+      {
+        "BusinessPartner": 101,
+        "BusinessPartnerName": "ローソン本社",
+        "IsMarkedForDeletion": false
+      },
+      {
+        "BusinessPartner": 201,
+        "BusinessPartnerName": "山崎製パン",
+        "IsMarkedForDeletion": false
+      }
+    ]
+  },
+  "equipment-list": {
+    "equipmentList": [
+      {
+        "Equipment": 320000001,
+        "EquipmentName": "NVIDIA JETSON ORIN",
+        "EquipmentTypeName": "ED000",
+        "PlantName": "プラント名称",
+        "ValidityStartDate": "2023-04-01",
+        "IsMarkedForDeletion": false,
+        "Images" : {
+          "Equipment": "画像"
+        }
+      }
+    ]
+  },
+
+  "invoice-document-list_billToParty": {
+    "invoiceDocuments":[
+      {
+        "InvoiceDocument": 1000000,
+        "BillToParty": 101,
+        "BillFromParty": 201,
+        "InvoiceDocumentDate":"2023-04-01",
+        "PaymentDueDate":"2023-04-30",
+        "HeaderBillingIsConfirmed":false,
+        "IsCancelled":false
+      }
+    ]
+  },
+
+  "invoice-document-list_billFromParty": {
+    "invoiceDocuments":[
+      {
+        "InvoiceDocument": 1000000,
+        "BillToParty": 101,
+        "BillFromParty": 201,
+        "InvoiceDocumentDate":"2023-04-01",
+        "PaymentDueDate":"2023-04-30",
+        "HeaderBillingIsConfirmed":false,
+        "IsCancelled":false
+      }
+    ]
+  },
+
+  "orders-list_buyer": {
+    "Header": [
+      {
+        "Product": "A3750",
+        "BillOfMaterial": 280000000,
+        "ProductDescription": "ランチパックたまご",
+        "OwnerProductionPlant": "AB01",
+        "OwnerProductionPlantName": "ローソン本社",
+        "ValidityStartDate": "2023-05-17",
+        "IsMarkedForDeletion": false,
+        "Images": {
+          "Product": "画像"
+        }
+      },
+      {
+        "Product": "A3750",
+        "BillOfMaterial": 280000001,
+        "ProductDescription": "ランチパックたまご",
+        "OwnerProductionPlant": "AB01",
+        "OwnerProductionPlantName": "ローソン本社",
+        "ValidityStartDate": "2023-05-17",
+        "IsMarkedForDeletion": false,
+        "Images": {
+          "Product": "画像"
+        }
+      }
+    ]
+  },
+
+  
+  "orders-list_seller": {
+    "Header": [
+      {
+        "Product": "A3750",
+        "BillOfMaterial": 280000000,
+        "ProductDescription": "ランチパックたまご",
+        "OwnerProductionPlant": "AB01",
+        "OwnerProductionPlantName": "ローソン本社",
+        "ValidityStartDate": "2023-05-17",
+        "IsMarkedForDeletion": false,
+        "Images": {
+          "Product": "画像"
+        }
+      },
+      {
+        "Product": "A3750",
+        "BillOfMaterial": 280000001,
+        "ProductDescription": "ランチパックたまご",
+        "OwnerProductionPlant": "AB01",
+        "OwnerProductionPlantName": "ローソン本社",
+        "ValidityStartDate": "2023-05-17",
+        "IsMarkedForDeletion": false,
+        "Images": {
+          "Product": "画像"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "app-mock-server",
+  "main": "index.js",
+  "scripts": {
+    "json-server": "json-server --watch mock.json --port 5000",
+    "json-server:server": "json-server --watch mock.json --routes routes.json --middlewares middleware.js --port 5000"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "sunn",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.1"
+  },
+  "dependencies": {
+    "json5": "^2.2.3"
+  }
+}

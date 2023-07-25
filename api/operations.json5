@@ -1,0 +1,19 @@
+{
+  "operations-list": {
+    "Header":[
+      {
+        "Operations": "aa",
+        "Product": "aa",
+        "ProductDescription": "qq",
+        "OwnerProductionPlantName": "qq",
+        "ValidityStartDate": "2023-05-17",
+        "IsMarkedForDeletion": false,
+		"Images": {
+          "Product": "画像"
+        },
+		"OwnerProductionPlantBusinessPartner": 111,
+		"OwnerProductionPlant": 111
+      }
+    ]
+  }
+}

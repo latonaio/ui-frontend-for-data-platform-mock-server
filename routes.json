@@ -1,0 +1,9 @@
+{
+  "/bill-of-material/list/:userType": "/bill-of-material-list_:userType",
+  "/invoice-document/list/:userType": "/invoice-document-list_:userType",
+  "/delivery-document/list/:userType": "/delivery-document-list_:userType",
+  "/business-partner.list/:userType": "/business-partner-list_:userType",
+  "/orders/list/:userType": "/orders-list_:userType",
+  "/orders/detail/list/:userType":"/orders-detail-list_:userType",
+  "/operations/list/:userType":"/operations-list_:userType"
+}

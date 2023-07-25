@@ -1,0 +1,15 @@
+{
+  "invoice-document-list": {
+    "invoiceDocuments":[
+      {
+        "InvoiceDocument": 1000000,
+        "BillToParty": 101,
+        "BillFromParty": 201,
+        "InvoiceDocumentDate":"2023-04-01",
+        "PaymentDueDate":"2023-04-30",
+        "HeaderBillingIsConfirmed":false,
+        "IsCancelled":false
+      }
+    ]
+  }
+}
