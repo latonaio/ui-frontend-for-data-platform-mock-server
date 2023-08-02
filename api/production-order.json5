@@ -1,0 +1,28 @@
+{
+  "production-order-detail": {
+    "productionOrderDetail": {
+      "ProductionOrder": 1,
+      "ProductionOrderItem": 1,
+      "MRPArea": null,
+      "Product": "A3750",
+      "ProductDescription": "ランチパックたまご",
+      "OwnerProductionPlantBusinessPartner": 0,
+      "OwnerProductionPlantBusinessPartnerName": "",
+      "OwnerProductionPlant": "",
+      "OwnerProductionPlantName": "山崎製パン 松戸第二工場",
+      "ProductionOrderQuantityInBaseUnit": 1,
+      "IsReleased": null,
+      "IsPartiallyConfirmed": null,
+      "IsConfirmed": null,
+      "IsCancelled": false,
+      "IsMarkedForDeletion": false,
+      "Images": {
+        "Product": {
+          "BusinessPartnerID": 201,
+          "DocID": "642be1c5d070b605cb250ac9534f6a0ab210e8fd9253a4e8a0a756ee7c589143",
+          "FileExtension": "jpg"
+        }
+      }
+    }
+  }
+}
