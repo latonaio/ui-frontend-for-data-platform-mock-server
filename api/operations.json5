@@ -15,5 +15,23 @@
 		"OwnerProductionPlant": 111
       }
     ]
+  },
+  "operations-detail-list": {
+    "Item":[
+      {
+        "ProductionOrder": 1,
+        "ProductionOrderItem": 2,
+        "Product": "A3750",
+        "ProductName": "",
+        "OrderItemTextBySeller": "",
+        "TotalQuantity": 1,
+        "ConfirmedYieldQuantity": 1,
+        "ItemIsConfirmed": false,
+        "ItemIsPartiallyConfirmed": false,
+        "ItemIsReleased": false,
+        "IsCancelled": false,
+        "MRPArea": ""
+      }
+    ]
   }
 }

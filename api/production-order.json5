@@ -1,28 +1,95 @@
 {
-  "production-order-detail": {
-    "productionOrderDetail": {
-      "ProductionOrder": 1,
-      "ProductionOrderItem": 1,
-      "MRPArea": null,
-      "Product": "A3750",
-      "ProductDescription": "ランチパックたまご",
-      "OwnerProductionPlantBusinessPartner": 0,
-      "OwnerProductionPlantBusinessPartnerName": "",
-      "OwnerProductionPlant": "",
-      "OwnerProductionPlantName": "山崎製パン 松戸第二工場",
-      "ProductionOrderQuantityInBaseUnit": 1,
-      "IsReleased": null,
-      "IsPartiallyConfirmed": null,
-      "IsConfirmed": null,
-      "IsCancelled": false,
-      "IsMarkedForDeletion": false,
-      "Images": {
-        "Product": {
-          "BusinessPartnerID": 201,
-          "DocID": "642be1c5d070b605cb250ac9534f6a0ab210e8fd9253a4e8a0a756ee7c589143",
-          "FileExtension": "jpg"
+  'production-order-detail': {
+    productionOrderDetail: {
+      ProductionOrder: 1,
+      ProductionOrderItem: 1,
+      MRPArea: null,
+      Product: 'A3750',
+      ProductDescription: 'ランチパックたまご',
+      OwnerProductionPlantBusinessPartner: 0,
+      OwnerProductionPlantBusinessPartnerName: '',
+      OwnerProductionPlant: '',
+      OwnerProductionPlantName: '山崎製パン 松戸第二工場',
+      ProductionOrderQuantityInBaseUnit: 1,
+      IsReleased: null,
+      IsPartiallyConfirmed: null,
+      IsConfirmed: null,
+      IsCancelled: false,
+      IsMarkedForDeletion: false,
+      Images: {
+        Product: {
+          BusinessPartnerID: 201,
+          DocID: '642be1c5d070b605cb250ac9534f6a0ab210e8fd9253a4e8a0a756ee7c589143',
+          FileExtension: 'jpg'
         }
       }
     }
-  }
-}
+  },
+  'production-order-detail-list': {
+    Items: [],
+    Header: {}
+  },
+  'production-order-item-operation-list': {
+    Items: [],
+    Header: {}
+  },
+  'production-order-item-operation-input': {
+    Items: [
+      {
+        "Images": {
+          "Product": {
+            "BusinessPartnerID": 201,
+            "DocID":'642be1c5d070b605cb250ac9534f6a0ab210e8fd9253a4e8a0a756ee7c589143',
+            "FileExtension": 'jpg'
+          }
+        },
+        "IsCancelled": false,
+        "IsConfirmed": null,
+        "IsMarkedForDeletion": false,
+        "IsPartiallyConfirmed": null,
+        "IsReleased": false,
+        "MRPArea": 'Z001',
+        "OwnerProductionPlant": '',
+        "OwnerProductionPlantBusinessPartner": 0,
+        "OwnerProductionPlantBusinessPartnerName": '',
+        "OwnerProductionPlantName": '山崎製パン 松戸第二工場',
+        "Product": 'A3750',
+        "ProductDescription": 'ランチパックたまご',
+        "ProductionOrder": 1,
+        "ProductionOrderItem": 1,
+        "ProductionOrderQuantityInBaseUnit": 1
+      }
+    ],
+    Header: {
+      {
+        "Images": {
+          "Product": {
+          "BusinessPartnerID": 201, 
+          "DocID":'642be1c5d070b605cb250ac9534f6a0ab210e8fd9253a4e8a0a756ee7c589143', 
+          "FileExtension": 'jpg',
+          }
+        }, 
+        "IsCancelled": null,
+        "IsConfirmed": null,
+        "IsMarkedForDeletion": null,
+        "IsPartiallyConfirmed": null,
+        "IsReleased": null,
+        "MRPArea": null,
+        "OwnerProductionPlant": "TE01",
+        "OwnerProductionPlantBusinessPartner": 0,
+        "OwnerProductionPlantBusinessPartnerName": "山崎製パン",
+        "OwnerProductionPlantName": "山崎製パン 松戸第二工場",
+        "Product": "A3750",
+        "ProductDescription": "ランチパックたまご",
+        "ProductionOrder": 1,
+        "ProductionOrderItem": 2,
+        "ProductionOrderPlannedEndDate": "2023-07-29",
+        "ProductionOrderPlannedEndTime": "00:00:00",
+        "ProductionOrderPlannedStartDate": "2023-07-24",
+        "ProductionOrderPlannedStartTime": "00:00:00",
+        "ProductionOrderQuantityInBaseUnit": 10,
+        "ProductionOrderQuantityInDestinationProductionUnit": 10
+      }
+    }
+            
+          

@@ -4,8 +4,10 @@
   "/delivery-document/list/:userType": "/delivery-document-list_:userType",
   "/business-partner.list/:userType": "/business-partner-list_:userType",
   "/orders/list/:userType": "/orders-list_:userType",
-  "/orders/detail/list/:userType":"/orders-detail-list_:userType",
-  "/operations/list/:userType":"/operations-list_:userType",
+  "/orders/detail/list/:userType": "/orders-detail-list_:userType",
+  "/operations/list/:userType": "/operations-list_:userType",
 
-  "/production-order/detail/:productionOrder/:productionOrderItem/:userType/:product":"/production-order-detail"
+  "/production-order/detail/:productionOrder/:productionOrderItem/:userType/:product": "/production-order-detail",
+  "/production-order/detail/list/:userType": "/production-order-detail-list",
+  "/production-order/item-operation/input:userType": "/production-order-item-operation-input"
 }
